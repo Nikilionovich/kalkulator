@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.number{
+    display:flex ;
+    flex-direction: column;
+    font-size: 10px;
+    
+}
+div button{
+    width: 30px;
+    height: 30px;
+}
+.page__body{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.ravno{
+width: 60px;
+}
