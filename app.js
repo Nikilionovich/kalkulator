@@ -15,5 +15,9 @@ let buttons = document.getElementsByClassName("numButton");
  { 
     buttons[i].addEventListener('click', ClickNumber); 
 }
-
+let acrest=document.getElementById('ACRES')
+acrest.addEventListener('click',function(){
+   let out = document.getElementById("output");
+   out.innerText='0';
+})
 
